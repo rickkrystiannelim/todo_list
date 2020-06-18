@@ -6,10 +6,12 @@ A simple TODO list app.
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Architecture: MVVM
+
 State management: 
 - ChangeNotifier
 - ChangeNotifierProvider
 - Consumer
+
 Database: Realm DB (manually implemented, limitation: Android only)
 
 App design:
@@ -30,4 +32,3 @@ App design:
 Native implementations:
 - method channel communication
 - Realm DB transactions
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
